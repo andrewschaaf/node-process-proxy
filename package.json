@@ -1,0 +1,29 @@
+{
+  "name": "process-proxy",
+  "version": "0.0.1",
+  
+  "description": "Easy diagnostics for your subprocesses. `process-proxy --log-to=foo.txt cmd arg arg...`",
+  "url": "https://github.com/andrewschaaf/node-process-proxy",
+  
+  "main": "lib/process-proxy.js",
+  "bin": {
+      "process-proxy": "./bin/process-proxy"
+  },
+  
+  "dependencies": {
+    "optimist": ">=0.2.8",
+    "underscore": ">=1.1.7",
+    "async": ">=0.1.9",
+    "strftime": ">=0.4.6",
+    "tafa-misc-util": ">=0.1.6",
+    "moof": ">=0.0.8",
+    "hexy": ">=0.2.1"
+  },
+  
+  "author": "Andrew Schaaf <andrew@andrewschaaf.com> (http://andrewschaaf.com)",
+  
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/andrewschaaf/node-process-proxy.git"
+  }
+}
