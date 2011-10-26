@@ -35,6 +35,7 @@ main = () ->
   
   log 'command', command
   log 'args', args
+  log 'process-proxy parsed args', argv
   log 'env', process.env
   
   p = spawn command, args
